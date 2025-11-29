@@ -17,12 +17,14 @@ This document provides specifications for the main Payment Gateway dashboard in 
 
 ### Color Coding
 
-| Color | Meaning |
-|-------|---------|
-| 🟢 Green | Healthy / Success |
-| 🟡 Yellow | Warning / Needs attention |
-| 🔴 Red | Critical / Failure |
-| 🔵 Blue | Informational |
+| Color | Symbol | Meaning | Text Label |
+|-------|--------|---------|------------|
+| 🟢 Green | ✓ | Healthy / Success | OK |
+| 🟡 Yellow | ⚠ | Warning / Needs attention | WARN |
+| 🔴 Red | ✗ | Critical / Failure | CRIT |
+| 🔵 Blue | ℹ | Informational | INFO |
+
+**Accessibility Note:** All dashboard panels should include text labels alongside color indicators to ensure accessibility for users with color vision deficiencies.
 
 ---
 

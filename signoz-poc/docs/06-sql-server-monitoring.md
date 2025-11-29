@@ -204,7 +204,7 @@ public static class DatabaseInstrumentation
 Create `Services/ConnectionPoolMonitor.cs`:
 
 ```csharp
-using System.Data.SqlClient;
+using Microsoft.Data.SqlClient;
 using PaymentGateway.Telemetry;
 
 namespace PaymentGateway.Services;
